@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+   "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+   <head>
+      <meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+      <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+      <link rel="stylesheet" href="jemdoc.css" type="text/css" />
+      <title>Mohamad H. Alizade</title>
+   </head>
+   <body>
+      <table summary="Table for page layout." id="tlayout">
+         <tr valign="top">
+            <td id="layout-menu">
+               <div class="menu-item"><a href="index.html">Home</a></div>
+               <div class="menu-item"><a href="research.html" class="current">Research</a></div>
+               <div class="menu-item"><a href="courses.html">Courses</a></div>
+               <div class="menu-item"><a href="about.html">About Me</a></div>
+               <div class="menu-item"><a href="./documents/Alizade-CV.pdf">CV</a></div>
+
+<!--               <div class="menu-category">Research</div>
+               <div class="menu-item"><a href="experience.html">Experience</a></div>
+               <div class="menu-item"><a href="Projects.html">Projects</a></div>
+-->
+            </td>
+            <td id="layout-content">
+               <div id="toptitle">
+                  <h1>Research Experience</h1>
+               </div>
+               <p>Unprecedented amount of data is collected at every
+second: from small-scale biological processes to large-scale 
+social interactions. On one hand, this deluge of data
+has brought tremendous potential in terms of understanding
+their generative processes. On the other hand, modern dataset
+are large, complicated, and often heterogeneous. While their
+complexity means that the relation between data entities, such
+as features or samples, is irregular and often unknown, their
+heterogeneity imposes a separate representation for each data
+partition. </p>
+<p>Graphs are generic mathematical objects that represent pair-wise 
+relational structures. Although more complex objects
+(e.g. simpilical complexes) exist, the rich literature on
+graphs and their interpretability offers them as a compelling
+choice to describe complex datasets. The emerging field
+of graph signal processing (GSP) has unveiled many
+analytical methods. Some datasets land themselves naturally to
+a graph structure, such as traffic data, however, in many others
+the underlying graph topology is not known a priori. Therefore, 
+graph learning (GL) has gained an increasing popularity in
+GSP, allowing for effective denoising, imputation,
+compression and analysis of such datasets. Formally, GL is concerned with the inference of a graph’s topology from nodal observations, i.e., graph signals.
+GL is also the basis of various machine learning algorithms.
+For instance, in semi-supervised setting the model has limited
+access to labels and compensates by learning a graph of data
+samples and propagating the labels over it.</p>
+<p>Consequently, my research has been mainly in this direction.</p>
+               <h2>Kernel-based Joint Multiple Graph Learning and Clustering of Graph Signals</h2>
+               <p>Data is in mixed form, relating to different
+underlying structures. This heterogeneity necessitates the joint
+clustering and learning of multiple graphs. In many real-life
+applications, there are available node-side covariates (i.e., kernels)
+that imperatively should be incorporated, which has not been
+addressed by the rare graph signal clustering approaches. To
+this end and inspired by the rich K-means framework, we
+propose a novel kernel-based algorithm to incorporate this node-side 
+information as we jointly partition the signals and learn a
+graph for each cluster. Numerical experiments demonstrate its
+effectiveness over the state-of-the-art.</p>
+               <h2>Simultaneous Dimensionality Reduction and Graph Learning</h2>
+               <p>
+                 The data is generated from more than one underlying graph topology and hence requires signal
+clustering beforehand. We’re moving towards a unified approach via deep learning to infer cluster-friendly spaces
+that also conform to the class of smooth signals on the resulting graphs - Achieving dimensionality reduction and graph
+learning simultaneously. </p>
+               <h2>Low-Rank Tensor Decomposition for Neural Network Pruning</h2>
+               <p>I studied the application of tensor factorization on network pruning. Specifically, replacing the convolutional
+layers with separable kernels, learned from tensor decompositions. This reduces the number of parameters, floating
+point operations, and inference time. I also explored the degeneracy phenomena in PARAFAC decomposition and
+its effect on the network’s fine-tuning and performance.</p>
+               <h2>Processing of Brain Signals for Biomarkers of Alzheimer’s Disease</h2>
+               <p>In summary, extracting, processing, and analyzing brain functional networks from fMRI imaging data. We investigated the inter and intra class variance of these networks across healthy and non-healthy patients.</p>
+               <h2>Active Contours on Segmentation of Retinal Images</h2>
+               <p> The segmentation is based on energy models. I implemented Viterbi’s algorithm to solve the active contour’s
+evolution. The algorithm finds the minimum path in a state-energy graph and gradually converges to the region
+of interest.</p>
+               <div id="footer">
+                  <div id="footer-text">
+                  </div>
+               </div>
+            </td>
+         </tr>
+      </table>
+   </body>
+</html>
+
