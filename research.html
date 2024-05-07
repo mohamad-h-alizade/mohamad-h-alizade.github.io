@@ -13,7 +13,6 @@
             <td id="layout-menu">
                <div class="menu-item"><a href="index.html">Home</a></div>
                <div class="menu-item"><a href="research.html" class="current">Research</a></div>
-               <div class="menu-item"><a href="courses.html">Courses</a></div>
                <div class="menu-item"><a href="about.html">About Me</a></div>
                <div class="menu-item"><a href="./documents/Alizade-CV.pdf">CV</a></div>
 
@@ -48,9 +47,9 @@ the underlying graph topology is not known a priori. Therefore,
 graph learning (GL) has gained increasing popularity in
 GSP, allowing for effective denoising, imputation,
 compression and analysis of such datasets. Formally, GL is concerned with the inference of a graph’s topology from nodal observations, i.e., graph signals.
-GL is also the basis of various machine learning algorithms.
+GL is also the basis of various data-driven algorithms.
 For instance, in a semi-supervised setting the model has limited
-access to labels and compensates by learning a graph of data
+access to labels and compensates by inferring a graph of data
 samples and propagating the labels over it.</p>
 <p>Consequently, my research has been mainly in this direction.</p>
                <h2>Kernel-based Joint Multiple Graph Learning and Clustering of Graph Signals</h2>
@@ -68,20 +67,17 @@ effectiveness over the state-of-the-art.</p>
                <h2>Simultaneous Dimensionality Reduction and Graph Learning</h2>
                <p>
                  The data is generated from more than one underlying graph topology and hence requires signal
-clustering beforehand. We’re moving towards a unified approach via deep learning to infer cluster-friendly spaces
+clustering beforehand. We’re moving towards a unified approach via dimensionality reduction to infer cluster-friendly spaces
 that also conform to the class of smooth signals on the resulting graphs - Achieving dimensionality reduction and graph
 learning simultaneously. </p>
-               <h2>Low-Rank Tensor Decomposition for Neural Network Pruning</h2>
-               <p>I studied the application of tensor factorization on network pruning. Specifically, replacing the convolutional
-layers with separable kernels, learned from tensor decompositions. This reduces the number of parameters, floating
-point operations, and inference time. I also explored the degeneracy phenomena in PARAFAC decomposition and
-its effect on the network’s fine-tuning and performance.</p>
+               <h2>Low-Rank Tensor Decomposition for NN Pruning</h2>
+               <p>We reduced the computational burden of a data-driven model by merging and trimming the computation paths.</p>
                <h2>Processing of Brain Signals for Biomarkers of Alzheimer’s Disease</h2>
                <p>In summary, extracting, processing, and analyzing brain functional networks from fMRI imaging data. We investigated the inter and intra class variance of these networks across healthy and non-healthy patients.</p>
                <h2>Active Contours on Segmentation of Retinal Images</h2>
-               <p> The segmentation is based on energy models. I implemented Viterbi’s algorithm to solve the active contour’s
-evolution. The algorithm finds the minimum path in a state-energy graph and gradually converges to the region
-of interest.</p>
+               <p> I implemented Viterbi’s algorithm to solve the active contour’s
+evolution. The algorithm finds the minimum path in a state-cost graph and gradually converges to the region
+of interest. Hence, we segmented different regions of the retina for medical diagnostic applications.</p>
                <div id="footer">
                   <div id="footer-text">
                   </div>
